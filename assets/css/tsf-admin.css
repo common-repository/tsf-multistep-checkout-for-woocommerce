@@ -1,0 +1,103 @@
+.premium {
+    font-style: italic;
+    font-weight: bold;
+    color: #ff2d2d;
+    display: block;
+    margin: 3px 0 0 0;
+}
+
+@media only screen and (max-width:768px) {
+    .premium-img {
+        width: 100%;
+    }
+}
+
+.premium-row .wp-picker-container {
+    pointer-events: none !important;
+}
+
+.tsf-tabs {}
+
+.tsf-tabs li {
+    display: inline-block;
+    margin: 5px 0;
+}
+
+.tsf-tabs li a {
+    background-color: #EDEFF0;
+    color: #2C3F4C;
+    border-radius: 4px;
+    text-decoration: none;
+    font-size: 14px;
+    padding: 15px 20px;
+    display: inline-block;
+}
+
+.tsf-tabs .active a {
+    background-color: #96C03D;
+    color: #fff;
+}
+
+.tsf-tabs li a:visited, .tsf-tabs li a:focus {
+    border: none;
+    outline: none;
+}
+
+.tsf-tabs .active {
+    /*background-color: #EDEFF0;
+    color: #2C3F4C;*/
+}
+
+.tsf-tab-content {
+    display: none;
+}
+
+.tsf-tab-content.active {
+    display: block;
+}
+
+span.description {
+    font-size: 12px;
+    display: block;
+    color: #979797;
+    margin: 2px 0px 0px 2px;
+}
+
+.form-table td {
+    line-height: 1;
+}
+
+.tsf-submit {
+    display: inline-block;
+    padding: 6px 12px;
+    margin-bottom: 0;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.42857143;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    background-color: #96c03d;
+    color: #fff;
+    padding: 10px 20px;
+}
+
+.label-column {
+    width: 220px;
+}
+
+.style-preview {
+    /*width: 300px;*/
+    max-width: 400px;
+    display: block;
+}

@@ -1,0 +1,1221 @@
+@charset "UTF-8";
+.gsi-step-indicator a, .tsf-nav-step ul a {
+    text-decoration: none!important
+}
+
+.gsi-show-number .number {
+    display: block!important
+}
+
+.gsi-hide-number .number {
+    display: none!important
+}
+
+.gsi-show-subtext .desc span {
+    display: block!important
+}
+
+.gsi-hide-subtext .desc span {
+    display: none!important
+}
+
+.gsi-number-circle li a:hover {
+    background-color: #2c3f4c;
+    color: #fff
+}
+
+.gsi-number-circle li a:hover .number, .gsi-number-circle li.current>* .number, .gsi-number-circle li.visited>* .number {
+    color: #2c3f4c
+}
+
+.gsi-number-circle li>* .number {
+    font-size: 24px;
+    padding: 5px;
+    background-color: #fff;
+    border: 1px solid #2c3f4c;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    width: 36px;
+    height: 36px;
+    text-align: center
+}
+
+.gsi-number-circle li>* .desc {
+    padding-left: 10px
+}
+
+.gsi-step-no-available li.current~li>*, .gsi-step-no-available li.current~li>:hover {
+    background-color: #E5E5E5!important;
+    border-color: #E5E5E5;
+    cursor: not-allowed;
+    color: #2c3f4c!important;
+    border-width: 0!important
+}
+
+.gsi-step-no-available li.current~li>* .number:before, .gsi-step-no-available li.current~li>:hover .number:before, .gsi-step-no-available-all li:not(.current)>* .number:before, .gsi-step-no-available-all li:not(.current)>:hover .number:before {
+    border-left-color: #E5E5E5!important
+}
+
+.gsi-step-no-available li.current~li>* .desc .label, .gsi-step-no-available li.current~li>:hover .desc .label {
+    cursor: not-allowed!important
+}
+
+.gsi-step-no-available-all li:not(.current)>*, .gsi-step-no-available-all li:not(.current)>:hover {
+    background-color: #E5E5E5!important;
+    border-color: #E5E5E5!important;
+    cursor: not-allowed;
+    color: #2c3f4c!important;
+    border-width: 0!important
+}
+
+.gsi-step-no-available-all li:not(.current)>* .desc .label, .gsi-step-no-available-all li:not(.current)>:hover .desc .label {
+    cursor: not-allowed!important
+}
+
+.gsi-step-no-available-after-current li.current~li>*, .gsi-step-no-available-after-current li.current~li>:hover {
+    background-color: #E5E5E5!important;
+    border-color: #E5E5E5;
+    cursor: not-allowed!important;
+    color: #2c3f4c!important;
+    border-width: 0!important
+}
+
+.gsi-step-no-available-after-current li.current~li>* .number:before, .gsi-step-no-available-after-current li.current~li>:hover .number:before, .gsi-step-no-available-before-current li:not(.current)>* .number:before, .gsi-step-no-available-before-current li:not(.current)>:hover .number:before {
+    border-left-color: #E5E5E5!important
+}
+
+.gsi-step-no-available-after-current li.current~li>* .desc .label, .gsi-step-no-available-after-current li.current~li>:hover .desc .label {
+    cursor: not-allowed!important
+}
+
+.gsi-step-no-available-before-current li:not(.current)>*, .gsi-step-no-available-before-current li:not(.current)>:hover {
+    background-color: #E5E5E5!important;
+    border-color: #E5E5E5!important;
+    cursor: not-allowed!important;
+    color: #2c3f4c!important;
+    border-width: 0!important
+}
+
+.gsi-step-no-available-before-current li:not(.current)>* .desc .label, .gsi-step-no-available-before-current li:not(.current)>:hover .desc .label {
+    cursor: not-allowed!important
+}
+
+.gsi-step-no-available-before-current li.current~li>*, .gsi-step-no-available-before-current li.current~li>:hover {
+    background-color: #edeff0!important;
+    border-color: #edeff0!important;
+    cursor: not-allowed!important;
+    color: #2c3f4c!important;
+    border-width: 0!important
+}
+
+.gsi-step-no-available-before-current li.current~li>* .desc .label, .gsi-step-no-available-before-current li.current~li>:hover .desc .label, .tsf-wizard .tsf-nav-step .label {
+    cursor: pointer!important
+}
+
+.gsi-step-no-available-before-current li.current~li>* .number:before, .gsi-step-no-available-before-current li.current~li>:hover .number:before {
+    border-left-color: #E5E5E5!important
+}
+
+.gsi-transition li>*, .gsi-transition li>* .number, .gsi-transition li>* .number:before {
+    -webkit-transition: background-color .6s ease, border-color .6s ease;
+    -moz-transition: background-color .6s ease, border-color .6s ease;
+    -o-transition: background-color .6s ease, border-color .6s ease;
+    transition: background-color .6s ease, border-color .6s ease
+}
+
+.gsi-vertical {
+    margin: 0 0 10px 15px !important;
+    width: 85% !important
+}
+
+.gsi-vertical li {
+    min-width: 150px;
+    margin-top: 10px;
+    display: block !important;
+}
+
+.gsi-vertical li.current>*, .gsi-vertical li>* {
+    padding: 16px 12px 12px 16px !important;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+}
+
+.gsi-step-indicator {
+    width: 100%;
+    padding: 0 19px;
+    margin: 16px auto;
+    background-color: #edeff0;
+    border-radius: 4px;
+}
+
+.gsi-step-indicator li {
+    display: inline-block;
+    float: left;
+    margin: 19px 0;
+    /*height: 35px;*/
+}
+
+.gsi-step-indicator li .number {
+    font-size: 32px
+}
+
+.gsi-step-indicator li .desc {
+    padding-top: 10px;
+    padding-left: 10px;
+    vertical-align: super
+}
+
+.gsi-step-indicator li .desc .label {
+    /*font-size: 18px*/
+    font-size: 16px
+}
+
+.gsi-step-indicator li .desc span {
+    /*font-size: 14px;*/
+    font-size: 12px;
+    display: block
+}
+
+.gsi-step-indicator li::after {
+    display: inline-block;
+    content: '\00bb';
+    margin: 0 16px;
+    color: #959fa5
+}
+
+.gsi-step-indicator li:last-of-type::after {
+    display: none
+}
+
+.gsi-step-indicator li>* {
+    display: flex;
+    font-size: 22px;
+    color: #2c3f4c;
+    height: 63px;
+}
+
+.gsi-step-indicator a:hover, .gsi-step-indicator li.current>* {
+    color: #96c03d
+}
+
+.gsi-step-indicator:after {
+    content: "";
+    display: table;
+    clear: both
+}
+
+.gsi-step-indicator.triangle {
+    background-color: transparent;
+    padding: 0
+}
+
+.gsi-step-indicator.triangle li {
+    position: relative;
+    padding: 0;
+    margin: 4px 4px 4px 0
+}
+
+.gsi-step-indicator.triangle li:last-of-type {
+    margin-right: 0
+}
+
+.gsi-step-indicator.triangle li>* {
+    position: relative;
+    padding: 1px 12px 12px 40px;
+    color: #2c3f4c;
+    background-color: #edeff0;
+    border-color: #edeff0
+}
+
+.gsi-step-indicator.triangle li.current>* {
+    color: #fff;
+    background-color: #96c03d;
+    border-color: #96c03d
+}
+
+.gsi-step-indicator.triangle li:first-of-type>* {
+    border-radius: 4px 0 0 4px
+}
+
+.gsi-step-indicator.triangle li:last-of-type>* {
+    padding-right: 25px;
+    border-radius: 0 4px 4px 0
+}
+
+.gsi-step-indicator.triangle a:hover {
+    color: #fff;
+    background-color: #2c3f4c;
+    border-color: #2c3f4c
+}
+
+.gsi-step-indicator.triangle li::after, .gsi-step-indicator.triangle li>::after {
+    content: '';
+    position: absolute;
+    top: 2px;
+    left: 100%;
+    height: 0;
+    width: 0;
+    border: 31px solid transparent;
+    border-right-width: 0;
+    border-left-width: 20px
+}
+
+.gsi-step-indicator.triangle li::after {
+    z-index: 1;
+    -webkit-transform: translateX(4px);
+    -moz-transform: translateX(4px);
+    -ms-transform: translateX(4px);
+    -o-transform: translateX(4px);
+    transform: translateX(4px);
+    border-left-color: #fff;
+    margin: 0
+}
+
+.gsi-step-indicator.triangle li>::after {
+    z-index: 2;
+    border-left-color: inherit
+}
+
+.gsi-step-indicator.triangle .triangle li:last-of-type::after, .gsi-step-indicator.triangle li:last-of-type>::after {
+    display: none
+}
+
+.gsi-step-indicator.triangle.gsi-arrow-left li::after, .gsi-step-indicator.triangle.gsi-arrow-left li>::after {
+    content: '';
+    position: absolute;
+    top: 2px;
+    left: -20px;
+    height: 0;
+    width: 0;
+    border: 31px solid transparent;
+    border-right-width: 20px;
+    border-left-width: 0
+}
+
+.gsi-step-indicator.triangle.gsi-arrow-left li>::after {
+    z-index: 2;
+    border-right-color: inherit
+}
+
+.gsi-step-indicator.gsi-vertical li {
+    float: inherit!important;
+    display: block
+}
+
+.gsi-step-indicator li *:focus {
+    outline: 0;
+}
+
+.gsi-style-1 li .desc {
+    padding-top: 12px !important
+}
+
+.gsi-style-1 li .number {
+    font-size: 26px !important;
+    margin-top: 9px !important;
+}
+
+.gsi-style-1 li .desc .label {
+    padding-bottom: 10px
+}
+
+.gsi-style-1 li .desc span {
+    display: none
+}
+
+.gsi-style-4 li>* {
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px
+}
+
+.gsi-style-4 {
+    width: 100%;
+    padding: 0 19px;
+    margin: 16px auto
+}
+
+.gsi-style-4 li {
+    display: inline-block
+}
+
+.gsi-style-4 li a {
+    background-color: #edeff0;
+    color: #2c3f4c
+}
+
+.gsi-style-4 li a .number:before {
+    border-left-color: #EDEFF0
+}
+
+.gsi-style-4 li a:hover {
+    background-color: #2c3f4c;
+    color: #fff
+}
+
+.gsi-style-4 li a:hover .number:before {
+    border-left-color: #2c3f4c
+}
+
+.gsi-style-4 li>* {
+    border-radius: 4px;
+    padding: 16px 14px 14px 10px;
+    display: flex
+}
+
+.gsi-style-4 li>* .number {
+    font-size: 24px;
+    position: relative;
+    padding-right: 5px
+}
+
+.gsi-style-4 li>* .number:after, .gsi-style-4 li>* .number:before {
+    -webkit-transform: translateX(3px);
+    -moz-transform: translateX(3px);
+    -ms-transform: translateX(3px);
+    -o-transform: translateX(3px);
+    transform: translateX(3px);
+    margin: 0;
+    content: '';
+    position: absolute;
+    top: -15px;
+    border: 32px solid transparent;
+    border-left-width: 12px
+}
+
+.gsi-style-4 li>* .number:after {
+    z-index: 1;
+    left: 100%;
+    border-left-color: #fff
+}
+
+.gsi-style-4 li>* .number:before {
+    z-index: 2;
+    left: 85%
+}
+
+.gsi-style-4 li>* .desc {
+    padding-top: 5px;
+    padding-left: 20px
+}
+
+.gsi-style-4 li>* .desc .label {
+    font-size: 16px
+}
+
+.gsi-style-4 li>* .desc span {
+    font-size: 12px;
+    display: block
+}
+
+.gsi-style-4 li.current>* {
+    background-color: #96c03d;
+    color: #fff
+}
+
+.gsi-style-4 li.current>* .number:before {
+    border-left-color: #96c03d
+}
+
+.gsi-style-7 li>* {
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px
+}
+
+.gsi-style-7 {
+    width: 100%;
+    padding: 0 19px;
+    margin: 16px auto
+}
+
+.gsi-style-7 li {
+    margin-left: 5px;
+    display: inline-block;
+    margin-bottom: 10px;
+    min-width: 215px
+}
+
+.gsi-style-7 li a:hover {
+    background-color: #2c3f4c;
+    color: #fff
+}
+
+.gsi-style-7 li>* {
+    display: flex;
+    border-radius: 4px;
+    padding: 16px 14px 14px 10px;
+    background-color: #edeff0;
+    color: #2c3f4c
+}
+
+.gsi-style-7 li>* .number {
+    font-size: 20px;
+    padding-left: 5px;
+    padding-top: 1px;
+}
+
+.gsi-style-7 li>* .desc {
+    font-weight: 400;
+    padding-left: 15px
+}
+
+.gsi-style-7 li>* .desc .label {
+    font-size: 16px
+}
+
+.gsi-style-7 li>* .desc span {
+    font-size: 12px;
+    display: block
+}
+
+.gsi-style-7 li.current:hover>* {
+    background-color: #96c03d;
+    color: #fff
+}
+
+. .gsi-style-7.border-top li a {
+    border-top: 10px solid #2c3f4c
+}
+
+.gsi-style-7.border-top li.current>* {
+    border-top: 10px solid #96c03d
+}
+
+@media only screen and (min-width:317px) and (max-width:480px) {
+    .gsi-step-indicator {
+        width: 100%;
+        padding: 0
+    }
+    .gsi-step-indicator li {
+        float: inherit!important;
+        display: block
+    }
+    .gsi-step-indicator li .number {
+        display: none;
+        font-size: 24px
+    }
+    .gsi-step-indicator li .desc {
+        padding-top: 0;
+        padding-left: 4px;
+        vertical-align: super
+    }
+    .gsi-step-indicator li .desc .label {
+        font-size: 16px
+    }
+    .gsi-step-indicator li .desc span {
+        font-size: 12px;
+        display: block
+    }
+    .gsi-step-indicator li::after {
+        display: inline-block;
+        content: '\00bb';
+        margin: 0 16px;
+        color: #959fa5
+    }
+    .gsi-step-indicator li:last-of-type::after {
+        display: none
+    }
+    .gsi-step-indicator li>* {
+        display: flex;
+        font-size: 16px;
+        color: #2c3f4c
+    }
+    .gsi-step-indicator.triangle {
+        background-color: transparent;
+        padding: 0
+    }
+    .gsi-step-indicator.triangle li {
+        margin: 4px 4px 4px 0
+    }
+    .gsi-step-indicator.triangle li>* {
+        padding: 6px 6px 6px 13px
+    }
+    .gsi-step-indicator.triangle li:first-of-type>* {
+        border-radius: 4px 0 0 4px
+    }
+    .gsi-step-indicator.triangle li:last-of-type>* {
+        padding-right: 25px;
+        border-radius: 0 4px 4px 0
+    }
+    .gsi-step-indicator.triangle li::after, .gsi-step-indicator.triangle li>::after {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 100%;
+        height: 0;
+        width: 0;
+        border: 16px solid transparent;
+        border-right-width: 0;
+        border-left-width: 12px
+    }
+    .gsi-step-indicator.triangle li::after {
+        z-index: 1;
+        -webkit-transform: translateX(4px);
+        -moz-transform: translateX(4px);
+        -ms-transform: translateX(4px);
+        -o-transform: translateX(4px);
+        transform: translateX(4px);
+        border-left-color: #fff;
+        margin: 0
+    }
+    .gsi-step-indicator.triangle li>::after {
+        z-index: 2;
+        border-left-color: inherit
+    }
+    .gsi-step-indicator.triangle .triangle li:last-of-type::after, .gsi-step-indicator.triangle li:last-of-type>::after {
+        display: none
+    }
+    .gsi-vertical {
+        width: 100%!important
+    }
+    .gsi-vertical li {
+        margin-right: 10px
+    }
+    .gsi-vertical li.current>*, .gsi-vertical li>* {
+        padding: 8px 7px 7px 5px!important
+    }
+    .gsi-number-circle li {
+        display: block;
+        margin: 5px 0
+    }
+    .gsi-number-circle li>* .number {
+        padding: 2px 4px 4px;
+        /*width: 18px;
+        height: 18px;*/
+        font-size: 16px
+    }
+    .gsi-number-circle li>* .desc {
+        padding-left: 10px
+    }
+    .gsi-style-4 {
+        display: inline-block;
+        padding: 0;
+        margin: 16px auto
+    }
+    .gsi-style-4 li {
+        display: block;
+        margin-bottom: 3px;
+        margin-top: 3px
+    }
+    .gsi-style-4 li>* {
+        padding: 8px 7px 7px;
+        display: flex
+    }
+    .gsi-style-4 li>* .number {
+        font-size: 18px;
+        padding-right: 5px
+    }
+    .gsi-style-4 li>* .number:after, .gsi-style-4 li>* .number:before {
+        top: -8px;
+        border: 19px solid transparent;
+        border-left-width: 9px
+    }
+    .gsi-style-4 li>* .number:after {
+        z-index: 1;
+        left: 65%;
+        border-left-color: #fff
+    }
+    .gsi-style-4 li>* .number:before {
+        z-index: 2;
+        left: 54%
+    }
+    .gsi-style-4 li>* .desc {
+        padding-top: 0;
+        padding-left: 10px
+    }
+    .gsi-style-4 li>* .desc .label {
+        font-size: 14px
+    }
+    .gsi-style-4 li>* .desc span {
+        font-size: 12px
+    }
+    .gsi-style-4 li.current>* {
+        background-color: #96c03d;
+        color: #fff
+    }
+    .gsi-style-4 li.current>* .number:before {
+        border-left-color: #96c03d
+    }
+    .gsi-style-7 li {
+        margin-left: 5px;
+        display: block;
+        margin-bottom: 10px;
+        min-width: 215px
+    }
+}
+
+@media only screen and (min-width:480px) and (max-width:768px) {
+    .gsi-step-indicator {
+        width: 100%;
+        padding: 0
+    }
+    .gsi-step-indicator li .number {
+        font-size: 24px
+    }
+    .gsi-step-indicator li .desc {
+        padding-top: 6px;
+        vertical-align: super
+    }
+    .gsi-step-indicator li .desc .label {
+        font-size: 16px
+    }
+    .gsi-step-indicator li .desc span {
+        font-size: 12px;
+        display: block
+    }
+    .gsi-step-indicator li::after {
+        display: none;
+        content: '\00bb';
+        margin: 0 16px;
+        color: #959fa5
+    }
+    .gsi-step-indicator li:last-of-type::after {
+        display: none
+    }
+    .gsi-step-indicator li>* {
+        display: flex;
+        font-size: 26px;
+        color: #2c3f4c
+    }
+    .gsi-step-indicator.triangle {
+        background-color: transparent;
+        padding: 0
+    }
+    .gsi-step-indicator.triangle li {
+        margin: 4px 4px 4px 0;
+        display: block;
+        float: none
+    }
+    .gsi-step-indicator.triangle li>* {
+        padding: 6px 6px 6px 14px
+    }
+    .gsi-step-indicator.triangle li:first-of-type>* {
+        border-radius: 4px 0 0 4px
+    }
+    .gsi-step-indicator.triangle li:last-of-type>* {
+        padding-right: 25px;
+        border-radius: 0 4px 4px 0
+    }
+    .gsi-step-indicator.triangle li::after, .gsi-step-indicator.triangle li>::after {
+        display: none!important;
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 100%;
+        height: 0;
+        width: 0;
+        border: 21px solid transparent;
+        border-right-width: 0;
+        border-left-width: 13px
+    }
+    .gsi-step-indicator.triangle li::after {
+        z-index: 1;
+        -webkit-transform: translateX(4px);
+        -moz-transform: translateX(4px);
+        -ms-transform: translateX(4px);
+        -o-transform: translateX(4px);
+        transform: translateX(4px);
+        border-left-color: #fff;
+        margin: 0
+    }
+    .gsi-step-indicator.triangle li>::after {
+        z-index: 2;
+        border-left-color: inherit
+    }
+    .gsi-step-indicator.triangle .triangle li:last-of-type::after, .gsi-step-indicator.triangle li:last-of-type>::after {
+        display: none
+    }
+    .gsi-vertical {
+        width: 100%!important
+    }
+    .gsi-vertical li {
+        margin-right: 10px
+    }
+    .gsi-vertical li.current>*, .gsi-vertical li>* {
+        padding: 8px 14px 8px 15px!important
+    }
+    .gsi-number-circle li>* .number {
+        padding: 2px 4px 4px;
+        width: 18px;
+        height: 18px;
+        font-size: 16px
+    }
+    .gsi-number-circle li>* .desc {
+        padding-left: 10px
+    }
+    .gsi-style-4 {
+        display: inline-block;
+        padding: 0;
+        margin: 16px auto
+    }
+    .gsi-style-4 li>* {
+        padding: 8px 7px 7px;
+        display: flex
+    }
+    .gsi-style-4 li>* .number {
+        font-size: 18px;
+        padding-right: 5px
+    }
+    .gsi-style-4 li>* .number:after, .gsi-style-4 li>* .number:before {
+        top: -8px;
+        border: 19px solid transparent;
+        border-left-width: 9px
+    }
+    .gsi-style-4 li>* .number:after {
+        z-index: 1;
+        left: 65%;
+        border-left-color: #fff
+    }
+    .gsi-style-4 li>* .number:before {
+        z-index: 2;
+        left: 54%
+    }
+    .gsi-style-4 li>* .desc {
+        padding-top: 0;
+        padding-left: 10px
+    }
+    .gsi-style-4 li>* .desc .label {
+        font-size: 14px
+    }
+    .gsi-style-4 li>* .desc span {
+        font-size: 12px
+    }
+    .gsi-style-4 li.current>* {
+        background-color: #96c03d;
+        color: #fff
+    }
+    .gsi-style-4 li.current>* .number:before {
+        border-left-color: #96c03d
+    }
+    .gsi-style-7 {
+        width: 100%;
+        padding: 0
+    }
+    .gsi-style-7 li {
+        margin-left: 5px;
+        display: block;
+        margin-bottom: 10px;
+        min-width: 215px
+    }
+}
+
+.sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    border: 0
+}
+
+.sr-only-focusable:active, .sr-only-focusable:focus {
+    position: static;
+    width: auto;
+    height: auto;
+    margin: 0;
+    overflow: visible;
+    clip: auto
+}
+
+.bounce-effect {
+    display: block;
+    -webkit-animation: bounce-1 .6s;
+    -moz-animation: bounce-1 .6s;
+    -o-animation: bounce-1 .6s;
+    animation: bounce-1 .6s
+}
+
+.slide-up-down-effect {
+    display: block;
+    -webkit-animation: slide-up-down .6s;
+    -moz-animation: slide-up-down .6s;
+    -o-animation: slide-up-down .6s;
+    animation: slide-up-down .6s
+}
+
+.slide-right-left-effect {
+    display: block;
+    -webkit-animation: slide-right-left .6s;
+    -moz-animation: slide-right-left .6s;
+    -o-animation: slide-right-left .6s;
+    animation: slide-right-left .6s
+}
+
+.default-effect {
+    display: block;
+    -moz-animation: default-effect .6s ease-in-out;
+    -o-animation: default-effect .6s ease-in-out;
+    -webkit-animation: default-effect .6s ease-in-out;
+    animation: default-effect .6s ease-in-out
+}
+
+.flip-effect {
+    display: block;
+    -moz-animation: flip-effect .8s ease-in-out;
+    -o-animation: flip-effect .8s ease-in-out;
+    -webkit-animation: flip-effect .8s ease-in-out;
+    animation: flip-effect .8s ease-in-out
+}
+
+@-webkit-keyframes bounce-1 {
+    0% {
+        opacity: 0;
+        -webkit-transform: scale(.5)
+    }
+    60% {
+        opacity: 1;
+        -webkit-transform: scale(1.2)
+    }
+    100% {
+        -webkit-transform: scale(1)
+    }
+}
+
+@-moz-keyframes bounce-1 {
+    0% {
+        opacity: 0;
+        -moz-transform: scale(.5)
+    }
+    60% {
+        opacity: 1;
+        -moz-transform: scale(1.2)
+    }
+    100% {
+        -moz-transform: scale(1)
+    }
+}
+
+@keyframes bounce-1 {
+    0% {
+        opacity: 0;
+        -webkit-transform: scale(.5);
+        -moz-transform: scale(.5);
+        -ms-transform: scale(.5);
+        -o-transform: scale(.5);
+        transform: scale(.5)
+    }
+    60% {
+        opacity: 1;
+        -webkit-transform: scale(1.2);
+        -moz-transform: scale(1.2);
+        -ms-transform: scale(1.2);
+        -o-transform: scale(1.2);
+        transform: scale(1.2)
+    }
+    100% {
+        -webkit-transform: scale(1);
+        -moz-transform: scale(1);
+        -ms-transform: scale(1);
+        -o-transform: scale(1);
+        transform: scale(1)
+    }
+}
+
+@keyframes slide-up-down {
+    0% {
+        opacity: 0;
+        -webkit-transform: translateY(-30px);
+        -moz-transform: translateY(-30px);
+        -ms-transform: translateY(-30px);
+        -o-transform: translateY(-30px);
+        transform: translateY(-30px)
+    }
+    60% {
+        opacity: 1;
+        -moz-transform: translateY(30px);
+        -ms-transform: translateY(30px);
+        -o-transform: translateY(30px);
+        -webkit-transform: translateY(30px);
+        transform: translateY(30px)
+    }
+    100% {
+        -moz-transform: translateY(0);
+        -ms-transform: translateY(0);
+        -o-transform: translateY(0);
+        -webkit-transform: translateY(0);
+        transform: translateY(0)
+    }
+}
+
+@keyframes slide-left-right {
+    0% {
+        opacity: 0;
+        -webkit-transform: translateX(-20px);
+        -moz-transform: translateX(-20px);
+        -ms-transform: translateX(-20px);
+        -o-transform: translateX(-20px);
+        transform: translateX(-20px)
+    }
+    60% {
+        opacity: 1;
+        -moz-transform: translateX(20px);
+        -ms-transform: translateX(20px);
+        -o-transform: translateX(20px);
+        -webkit-transform: translateX(20px);
+        transform: translateX(20px)
+    }
+    100% {
+        -moz-transform: translateX(0);
+        -ms-transform: translateX(0);
+        -o-transform: translateX(0);
+        -webkit-transform: translateX(0);
+        transform: translateX(0)
+    }
+}
+
+@keyframes default-effect {
+    0% {
+        -moz-perspective: 150;
+        -webkit-perspective: 150;
+        -ms-perspective: 150;
+        perspective: 150;
+        -moz-transform: rotateX(15deg);
+        -ms-transform: rotateX(15deg);
+        -o-transform: rotateX(15deg);
+        -webkit-transform: rotateX(15deg);
+        transform: rotateX(15deg);
+        opacity: 0;
+        filter: alpha(opacity=0)
+    }
+    60% {
+        -moz-transform: rotateX(7deg);
+        -ms-transform: rotateX(7deg);
+        -o-transform: rotateX(7deg);
+        -webkit-transform: rotateX(7deg);
+        transform: rotateX(7deg);
+        opacity: 1;
+        filter: alpha(opacity=100)
+    }
+    100% {
+        -moz-transform: rotateX(0);
+        -ms-transform: rotateX(0);
+        -o-transform: rotateX(0);
+        -webkit-transform: rotateX(0);
+        transform: rotateX(0)
+    }
+}
+
+@keyframes flip-effect {
+    0% {
+        -webkit-transform: rotateY(180deg);
+        -webkit-transform-style: preserve-3d;
+        -moz-transform: rotateY(180deg);
+        -ms-transform: rotateY(180deg);
+        -o-transform: rotateY(180deg);
+        transform: rotateY(180deg);
+        transform-style: preserve-3d
+    }
+    100% {
+        -webkit-transform: rotateY(0);
+        -webkit-transform-style: preserve-3d;
+        -moz-transform: rotateY(0);
+        -ms-transform: rotateY(0);
+        -o-transform: rotateY(0);
+        transform: rotateY(0);
+        transform-style: preserve-3d
+    }
+}
+
+.tsf-step {
+    display: none
+}
+
+.tsf-step.active {
+    display: block
+}
+
+.tsf-content {
+    border-radius: 3px;
+    border: 1px solid #e7e7e7;
+    padding: 15px
+}
+
+.tsf-content input.error {
+    border: 1px solid red
+}
+
+.tsf-content .label.error {
+    color: red;
+    font-style: italic
+}
+
+.tsf-controls {
+    padding: 25px 0
+}
+
+.tsf-controls .tsf-wizard-btn, .tsf-wizard .button {
+    background-color: #96c03d;
+    color: #fff!important;
+    padding: 15px 25px!important;
+}
+
+.tsf-controls .tsf-wizard-btn:hover, .tsf-wizard .button:hover {
+    background-color: #2c3f4c
+}
+
+.tsf-controls .tsf-wizard-btn.btn-right {
+    float: right
+}
+
+.tsf-nav-step ul .desc {
+    padding-top: 6px;
+}
+
+.tsf-nav-step ul .label {
+    margin-bottom: 0!important
+}
+
+.tsf-nav-step .tsf-nav {
+    -moz-transition: all 1s;
+    -o-transition: all 1s;
+    -webkit-transition: all 1s;
+    transition: all 1s;
+    position: absolute
+}
+
+.tsf-nav-many-steps {
+    height: 100px;
+    overflow: hidden;
+    width: 100%;
+    position: relative
+}
+
+.tsf-left-container, .tsf-right-container {
+    width: 66.66666667%;
+    float: left;
+    padding-right: 15px;
+    padding-left: 15px
+}
+
+.tsf-left-nav-step, .tsf-right-nav-step {
+    float: left;
+    width: 33.33333333%;
+    padding-right: 15px;
+    padding-left: 15px
+}
+
+.tsf-right-nav-step {
+    float: right
+}
+
+.tsf-wizard.not-show-num .tsf-nav-step .number {
+    /*display: none;*/
+    visibility: hidden;
+}
+
+.tsf-wizard.not-show-num .gsi-step-indicator.triangle li>* {
+    padding: 1px 12px 12px 10px !important;
+}
+
+.tsf-wizard.bottom {
+    display: flex;
+    -ms-flex-flow: column;
+    -webkit-flex-flow: column;
+    flex-flow: column
+}
+
+.tsf-wizard.bottom .tsf-bottom-container {
+    order: 1;
+    display: flex;
+    -ms-flex-flow: column;
+    -webkit-flex-flow: column;
+    flex-flow: column
+}
+
+.tsf-wizard.bottom .tsf-bottom-nav-step {
+    order: 2
+}
+
+.tsf-wizard.bottom .tsf-controls {
+    order: 1
+}
+
+.tsf-wizard.bottom .tsf-content {
+    order: 2
+}
+
+.form-group.required [data-type=.label]:after {
+    content: "*";
+    color: red;
+    margin-left: 5px
+}
+
+
+/*---------*/
+
+.tsf-title {
+    display: none;
+}
+
+.woocommerce form.checkout_coupon, .woocommerce form.login, .woocommerce form.register {
+    border: 0px !important;
+}
+
+.required-input {
+    background-color: #FBE3E4 !important;
+    border-left: 3px solid #E2401C !important;
+}
+
+.corrected-input {
+    background-color: #dbf9e5 !important;
+    border-left: 3px solid #73C990 !important;
+}
+
+.tsf-error-message {
+    color: red;
+}
+
+.tsf-controls .tsf-wizard-btn, .tsf-wizard .button {
+    border-radius: 5px !important;
+    outline: 0 !important;
+    -webkit-transition: background-color .6s ease !important;
+    -moz-transition: background-color .6s ease !important;
+    -o-transition: background-color .6s ease !important;
+    transition: background-color .6s ease !important;
+}
+
+.gsi-style-1.gsi-vertical li.current>*, .gsi-style-1.gsi-vertical li>* {
+    padding: 1px 12px 12px 40px !important;
+}
+
+.gsi-style-4 li {
+    margin-right: 5px;
+}
+
+.gsi-style-4 li>* .desc, .gsi-style-7 li>* .desc {
+    /*margin-top: -7px;*/
+}
+
+.gsi-style-4 *, .gsi-style-7 * {
+    outline: 0 !important;
+}
+
+.gsi-style-4, .gsi-style-7 {
+    padding: 0;
+}
+
+.gsi-step-no-available.gsi-number-circle li.current~li .number, .gsi-step-no-available.gsi-style-7.gsi-number-circle li.current~li .number {
+    color: #000 !important;
+}
+
+
+/*#tsf-wizard {
+    display: none;
+}*/
+
+.tsf-loading-img {
+    margin: 0 auto;
+    height: 64px;
+    width: 64px;
+}
+
+.gsi-style-7 {
+    margin-top: 0px;
+}
+
+.gsi-step-indicator:not(.gsi-vertical) li {
+    /*height: 35px;*/
+}
